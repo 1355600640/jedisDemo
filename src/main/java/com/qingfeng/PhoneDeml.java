@@ -12,6 +12,7 @@ public class PhoneDeml {
     private static final Jedis jedis = new Jedis("127.0.0.1", 6379);
 
     public static void main(String[] args) {
+
 //        System.out.println(test("123456789"));
         System.out.println(verify("123456789", "13303"));
     }
